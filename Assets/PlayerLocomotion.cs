@@ -45,7 +45,7 @@ namespace SG {
         }
         #region Movement
         Vector3 normalVector;
-        Vector3 targetposition;
+        Vector3 targetPosition;
 
         private void HandlerRotation(float delta) {
             Vector3 targetDir = Vector3.zero;
